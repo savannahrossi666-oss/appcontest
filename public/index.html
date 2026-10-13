@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AppContest Arena</title><link rel="stylesheet" href="/style.css"></head>
+<body><main><h1>APP<span>CONTEST</span> ARENA</h1><p>Race for the gold. First to five wins.</p>
+<form id="join"><label>Room code <input id="room" maxlength="12" pattern="[A-Za-z0-9]{1,12}" value="ARENA" required></label><button>Join room</button></form>
+<p id="status" role="status">Connect to start.</p><canvas id="board" width="600" height="420" aria-label="20 by 14 multiplayer game grid"></canvas>
+<h2>Scoreboard</h2><ol id="scores"></ol><p>Move with WASD or arrow keys. Open a second tab and join the same room.</p></main><script src="/game.js"></script></body></html>
